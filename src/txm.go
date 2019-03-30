@@ -2,10 +2,12 @@ package main
 
 import "fmt"
 
-func main() {
-	fmt.Printf("==========")
-}
+var x, y = 5, 7
+var (a int; b string)
 
-func test2() {
-	fmt.Printf("txm package")
+const cont1 int = 100
+
+func main() {
+   a, h := 56, "hello"
+   fmt.Println("hello, world ", a, x, y, h, cont1)
 }
